@@ -1,0 +1,170 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.scroll-container {
+    overflow: scroll;
+    height: 100vh;
+    max-height: calc(100vh - 100px);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari에서 스크롤바 숨김 */
+}
+
+.searchbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    width: 330px;
+    height: 48px;
+    font-size: 15px;
+    margin-top: 74px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #F2F2F2;
+}
+
+.searchbar::placeholder {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.search-btn {
+    width: 16px;
+    height: 16px;
+    background: url("images/돋보기.png") no-repeat center center;
+    background-size: cover;
+    margin-top: 75px;
+    margin-left: -80px;
+    cursor: pointer;
+    border: 0;
+}
+
+.mentee-apply-btn {
+    width: 170px;
+    height: 212px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: url("images/멘티지원.png") no-repeat center center;
+    border: none;
+}
+
+.mento-apply-btn {
+    width: 170px;
+    height: 212px;
+    background: url("images/멘토지원.png") no-repeat center center;
+    border: none;
+}
+
+footer {
+    border: 0;
+    width: 97%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.button-label {
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+}
+
+.button-label img {
+    width: 25px;
+    height: 25px;
+    /* 다른 스타일링 옵션들을 추가로 적용할 수 있습니다. */
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.passcode-text {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.passcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 144px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #b7eaf4;
+}
+
+.passcode-date {
+    margin-left: 11vw;
+}
+
+.passcode-btn {
+    width: 100px;
+    height: 100px;
+    background: url("images/큐알코드.jpg") no-repeat center center;
+    background-size: 100px 100px;
+    margin-left: 10vw;
+}
+
+.introduce-mentee-text {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.introduce-mentee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 144px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #f4f2f2;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    max-width: calc(80vh - 80px);
+}
+
+.yourtooday-btn, .collaboo-btn, .coteis-btn, .rolling-btn {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-size: 80px 80px;
+    border: 0;
+}
+
+.yourtooday-btn {
+    background: url("images/유어투데이.png") no-repeat center center;
+}
+.collaboo-btn {
+    background: url("images/콜라부.png") no-repeat center center;
+}
+.coteis-btn {
+    background: url("images/코테이즈.png") no-repeat center center;
+}
+.rolling-btn {
+    background: url("images/롤링.png") no-repeat center center;
+}
